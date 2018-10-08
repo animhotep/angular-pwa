@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Host: popmovies.cf
+Sitemap: https://popmovies.cf/sitemap.xml
