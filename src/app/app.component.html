@@ -1,37 +1,14 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
+<div class="body">
+  <div class="txt-center">
+    <h1>
+      Welcome to {{ title }}!
+    </h1>
+  </div>
+
+  <ul class="menu">
+    <li><a routerLink="" routerLinkActive="active">Home</a></li>
+    <li><a routerLink="/how-to" routerLinkActive="active">How to bootstrap Angular 7 PWA App</a></li>
+  </ul>
+
+  <router-outlet></router-outlet>
 </div>
-
-<h2>For Angular 7 Progressive Web App startup: </h2>
-<pre>
-  0)https://my.freenom.com/clientarea.php?action=domains
-  DNS1.P01.NSONE.NET
-  DNS2-4
-
-  1) ng new appName --routing
-
-  2) ng add @angular/pwa
-
-  3)"assets": [
-  "src/_redirects",
-  "src/sitemap.xml",
-  "src/robots.txt",
-
-  4)"options":
-  "outputPath": "dist",
-
-  5)"build": "ng build --prod",
-
-  6)git remote add origin https://github.com/animhotep/angular-pwa.git
-    git push -u origin master
-
-  7) deploy on https://www.netlify.com/
-  npm run build
-  dist
-  add domain
-
-</pre>
-<router-outlet></router-outlet>

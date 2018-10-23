@@ -9,10 +9,10 @@ import {Meta, Title} from '@angular/platform-browser';
 
 export class AppComponent {
   constructor(private meta: Meta, private titleService: Title) {
-    this.meta.addTag({ name: 'description', content: 'Index page' });
+    this.meta.addTag({ name: 'description', content: 'Angular PWA manual page' });
     this.meta.addTag({ name: 'author', content: 'pasha' });
-    this.meta.addTag({ name: 'keywords', content: 'angular, pwa' });
-    this.titleService.setTitle('Angular PWA install');
+    this.meta.addTag({ name: 'keywords', content: 'angular, pwa, manual' });
+    this.titleService.setTitle('Angular PWA manual');
   }
-  title = 'Angular PWA install page';
+  title = 'Angular PWA manual page';
 }
