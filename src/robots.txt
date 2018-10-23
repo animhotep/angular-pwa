@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Host: popmovies.cf
-Sitemap: https://popmovies.cf/sitemap.xml
+Host: https://angular-pwa.ga
+Sitemap: https://angular-pwa.ga/sitemap.xml
