@@ -1,13 +1,13 @@
 <h2>For Angular 7 Progressive Web App startup: </h2>
+
 <pre>
 <ol>
   <li>
-      https://my.freenom.com/clientarea.php?action=domains
-      DNS1.P01.NSONE.NET
-      DNS2-4
+    ng new appName --routing
   </li>
-  <li>ng new appName --routing</li>
-  <li>ng add @angular/pwa</li>
+  <li>
+    ng add @angular/pwa
+  </li>
   <li>
     "assets": [
     "src/_redirects",
@@ -18,10 +18,17 @@
     "options":
     "outputPath": "dist",
   </li>
-  <li>"build": "ng build --prod",</li>
+  <li>
+    "build": "ng build --prod",
+  </li>
   <li>
     git remote add origin https://github.com/animhotep/angular-pwa.git
     git push -u origin master
+  </li>
+  <li>
+    https://my.freenom.com/clientarea.php?action=domains
+    DNS1.P01.NSONE.NET
+    DNS2-4
   </li>
   <li>
     deploy on https://www.netlify.com/

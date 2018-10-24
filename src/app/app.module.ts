@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HowtoComponent } from './howto/howto.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HowtoComponent
+    HowtoComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
