@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://popmovies.cf/</loc>
-    <lastmod>2018-09-27</lastmod>
+    <loc>https://popmovies.cf/about</loc>
+    <lastmod>2018-11-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://popmovies.cf/about/</loc>
-    <lastmod>2018-09-27</lastmod>
+    <loc>https://popmovies.cf/how-to/</loc>
+    <lastmod>2018-11-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://popmovies.cf/gallery/</loc>
-    <lastmod>2018-09-27</lastmod>
+    <loc>https://popmovies.cf/advantages/</loc>
+    <lastmod>2018-11-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>

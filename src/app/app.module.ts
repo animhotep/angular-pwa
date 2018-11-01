@@ -7,12 +7,14 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HowtoComponent } from './howto/howto.component';
 import { AboutComponent } from './about/about.component';
+import { AdvantagesComponent } from './advantages/advantages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HowtoComponent,
-    AboutComponent
+    AboutComponent,
+    AdvantagesComponent
   ],
   imports: [
     BrowserModule,
