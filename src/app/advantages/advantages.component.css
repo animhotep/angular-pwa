@@ -6,6 +6,7 @@ li {
   border-left: 10px solid #f05d22;
   box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1), -2px -2px 5px 0 rgba(0,0,0,.1), 2px 2px 5px 0 rgba(0,0,0,.1), -2px 2px 5px 0 rgba(0,0,0,.1);
   transition: 0.3s all linear;
+  line-height: 1.5;
 }
 
 li:hover {
