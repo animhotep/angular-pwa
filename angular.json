@@ -24,7 +24,8 @@
               "src/robots.txt",
               "src/favicon.ico",
               "src/assets",
-              "src/manifest.json"
+              "src/manifest.json",
+              "src/googled8908121da442020.html"
             ],
             "styles": [
               "src/styles.css"
