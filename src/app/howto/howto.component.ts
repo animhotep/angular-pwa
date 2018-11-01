@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Meta, Title} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-howto',
@@ -7,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HowtoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private meta: Meta, private titleService: Title) {
+    this.meta.addTag({ name: 'description', content: 'How to bootstrap Angular 7 PWA App' });
+    this.meta.addTag({ name: 'author', content: 'pasha' });
+    this.meta.addTag({ name: 'keywords', content: 'How to, Angular 7, bootstrap' });
+    this.titleService.setTitle('How to bootstrap Angular 7 PWA App');
+  }
 
   ngOnInit() {
   }

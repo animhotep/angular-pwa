@@ -1,7 +1,7 @@
 li {
   list-style: none;
   padding: 7px 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border-radius: 5px;
   border-left: 10px solid #f05d22;
   box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1), -2px -2px 5px 0 rgba(0,0,0,.1), 2px 2px 5px 0 rgba(0,0,0,.1), -2px 2px 5px 0 rgba(0,0,0,.1);
