@@ -8,13 +8,15 @@ import { environment } from '../environments/environment';
 import { HowtoComponent } from './howto/howto.component';
 import { AboutComponent } from './about/about.component';
 import { AdvantagesComponent } from './advantages/advantages.component';
+import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HowtoComponent,
     AboutComponent,
-    AdvantagesComponent
+    AdvantagesComponent,
+    HowItWorksComponent
   ],
   imports: [
     BrowserModule,

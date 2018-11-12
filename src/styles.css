@@ -4,6 +4,10 @@ html, body {
   font-size: 20px;
 }
 
+img {
+  max-width: 90%;
+}
+
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -13,4 +17,7 @@ html, body {
     margin: 0;
   }
 
+  img {
+    max-width: 100%;
+  }
 }
