@@ -10,9 +10,9 @@ export class AdvantagesComponent implements OnInit {
 
 
   constructor(private meta: Meta, private titleService: Title) {
-    this.meta.addTag({ name: 'description', content: 'Advantages of the Angular 7 PWA App' });
-    this.meta.addTag({ name: 'author', content: 'pasha' });
-    this.meta.addTag({ name: 'keywords', content: 'Advantages, Angular 7, PWA' });
+    this.meta.updateTag({ name: 'description', content: 'Advantages of the Angular 7 PWA App' });
+    this.meta.updateTag({ name: 'author', content: 'pasha' });
+    this.meta.updateTag({ name: 'keywords', content: 'Advantages, Angular 7, PWA' });
     this.titleService.setTitle('Advantages of the Angular 7 PWA App');
   }
 

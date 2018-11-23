@@ -9,9 +9,9 @@ import {Meta, Title} from '@angular/platform-browser';
 export class HowtoComponent implements OnInit {
 
   constructor(private meta: Meta, private titleService: Title) {
-    this.meta.addTag({ name: 'description', content: 'How to bootstrap Angular 7 PWA App' });
-    this.meta.addTag({ name: 'author', content: 'pasha' });
-    this.meta.addTag({ name: 'keywords', content: 'How to, Angular 7, bootstrap' });
+    this.meta.updateTag({ name: 'description', content: 'How to bootstrap Angular 7 PWA App' });
+    this.meta.updateTag({ name: 'author', content: 'pasha' });
+    this.meta.updateTag({ name: 'keywords', content: 'How to, Angular 7, bootstrap' });
     this.titleService.setTitle('How to bootstrap Angular 7 PWA App');
   }
 

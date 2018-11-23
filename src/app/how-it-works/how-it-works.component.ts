@@ -10,9 +10,9 @@ export class HowItWorksComponent implements OnInit {
 
 
   constructor(private meta: Meta, private titleService: Title) {
-    this.meta.addTag({ name: 'description', content: 'How does PWA works in offline' });
-    this.meta.addTag({ name: 'author', content: 'pasha' });
-    this.meta.addTag({ name: 'keywords', content: 'Service workers, Offline mode, PWA' });
+    this.meta.updateTag({ name: 'description', content: 'How does PWA works in offline' });
+    this.meta.updateTag({ name: 'author', content: 'pasha' });
+    this.meta.updateTag({ name: 'keywords', content: 'Service workers, Offline mode, PWA' });
     this.titleService.setTitle('How does PWA works');
   }
 
