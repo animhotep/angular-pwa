@@ -3,38 +3,39 @@
 <pre>
 <ol>
   <li>
+    sudo npm install -g @angular/cli
+  </li>
+  <li>
     ng new appName --routing
   </li>
   <li>
     ng add @angular/pwa
   </li>
   <li>
+    echo '/robots.txt /robots.txt 200
+    /sitemap.xml /sitemap.xml 200
+    /* /index.html 200' > ./src/_redirects
+  </li>
+
+  <li>
+    mcedit ./angular.json => "options": "outputPath": "dist" <br>
     "assets": [
     "src/_redirects",
     "src/sitemap.xml",
     "src/robots.txt",
   </li>
   <li>
-    "options":
-    "outputPath": "dist",
-  </li>
-  <li>
-    "build": "ng build --prod",
-  </li>
-  <li>
-    git remote add origin https://github.com/animhotep/angular-pwa.git
+    git remote add origin https://github.com/animhotep/angular-pwa.git<br>
     git push -u origin master
   </li>
   <li>
-    https://my.freenom.com/clientarea.php?action=domains
-    DNS1.P01.NSONE.NET
-    DNS2-4
+    https://my.freenom.com/clientarea.php?action=domains<br>
+    dns1.p06.nsone.net dns2-4
   </li>
   <li>
-    deploy on https://www.netlify.com/
-    npm run build
-    dist
-    add domain
+    deploy on https://www.netlify.com/<br>
+    Build command: ng build --prod<br>
+    Publish directory: dist
   </li>
 </ol>
 </pre>
